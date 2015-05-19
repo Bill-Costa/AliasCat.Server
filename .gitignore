@@ -34,9 +34,11 @@ nytprof.out
 
 *.html
 
-# Ignore emacs generated backup files
+# Ignore emacs generated backup and auto save files
 
 *~
+\#*#
+.#*#
 
 # Ignore files and subdirectories tagged as notes and resources that
 # should not be included in the repository.

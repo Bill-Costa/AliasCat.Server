@@ -41,11 +41,11 @@ For more information about this software, contact <Alias.Admin@unh.edu>.
 - Would like to do keyword substition with Git, but this feature is
   not built-in.
   
-<https://git.wiki.kernel.org/index.php/GitFaq#Does_Git_have_keyword_expansion.3F>
+    <https://git.wiki.kernel.org/index.php/GitFaq#Does_Git_have_keyword_expansion.3F>
   
   However it can still be done if we roll our own scripts.  For ideas,
   see:
 
-<https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Keyword-Expansion>
+    <https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Keyword-Expansion>
 
 <!-- EOF: README.md -->

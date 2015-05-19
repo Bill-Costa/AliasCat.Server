@@ -46,5 +46,6 @@ nytprof.out
 *.local-only.*
 local-only.*
 Local-only/
+Local-Only/
 
 #==[ EOF: .gitignore ]==

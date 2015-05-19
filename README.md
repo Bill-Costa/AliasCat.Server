@@ -5,7 +5,7 @@
 
 # AliasCat.Server
 
-Web Services machinery for AliasCat
+Web Services machinery for AliasCat  
 Version 0.00.00 (Initial Docs Only)
 
 ## Introduction ##
@@ -17,7 +17,7 @@ to implement the web services component of AliasCat using RESTful API.
 ## License and Copyright ##
 
 AliasCat Email Alias Management System  
-Copyright (C) 2015  University System of New Hampshire  
+Copyright (C) 2015  University System of New Hampshire
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

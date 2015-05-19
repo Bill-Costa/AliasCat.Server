@@ -1,6 +1,0 @@
-This is a new file added using the GitHub web interface.
-Here is another line in this file which we plan to delete.
-
-Added this new line before deleting the file.
-And another added line for good measure.
-

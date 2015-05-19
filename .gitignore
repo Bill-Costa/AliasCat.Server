@@ -1,3 +1,12 @@
+#     File: https://github.com/Bill-Costa/AliasCat.Server/.gitignore
+# Abstract: Files matching these patterns should not be uploaded to repo.
+#   Author: Bill.Costa@unh.edu
+#      See: man gitignore
+#
+#  This file initially created using the 'Perl' option when the
+#  repository was initially created in GitHub.  See the end of the
+#  file for manually added additions.
+
 /blib/
 /.build/
 _build/
@@ -18,3 +27,22 @@ nytprof.out
 *.o
 *.bs
 /_eumm/
+
+#==[ Manual Additions ]==
+
+# Ignore generated html files
+
+*.html
+
+# Ignore emacs generated backup files
+
+*~
+
+# Ignore files and subdirectories tagged as notes and resources that
+# should not be included in the repository.
+
+*.local-only.*
+local-only.*
+Local-only/
+
+#==[ EOF: .gitignore ]==

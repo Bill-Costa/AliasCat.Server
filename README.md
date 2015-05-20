@@ -6,13 +6,14 @@
 # AliasCat.Server
 
 Web Services machinery for AliasCat  
-Version 0.00.00 (Initial Docs Only)
+**Current Status:** Version 0.00.00 (Initial Docs Only)
 
 ## Introduction ##
 
 AliasCat is a system for managing email aliases.  The current version
 supports Sendmail format alaises.  This project contains the code used
-to implement the web services component of AliasCat using RESTful API.
+to implement the web services component of AliasCat using a RESTful
+API.
 
 ## License and Copyright ##
 

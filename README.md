@@ -39,8 +39,8 @@ For more information about this software, contact <Alias.Admin@unh.edu>.
 
 ## To-Do ##
 
-- Would like to do keyword substition with Git, but this feature is
-  not built-in.
+- Would like to do keyword expansion in the code when doing a push,
+  but this feature is not built into Git.
 
     <https://git.wiki.kernel.org/index.php/GitFaq#Does_Git_have_keyword_expansion.3F>
 

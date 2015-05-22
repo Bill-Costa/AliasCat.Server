@@ -1,6 +1,15 @@
-#!perl -T
+#!/bin/env perl
+#
+#  This test is optional.  Testing POD coverage is important for the
+#  developer, but if the developer did the job right, it shouldn't be
+#  a requirement for deployment.
 
+use warnings;
+use strict;
 use Test::More;
-eval "use Test::Pod::Coverage 1.04";
-plan skip_all => "Test::Pod::Coverage 1.04 required for testing POD coverage" if $@;
-all_pod_coverage_ok();
+
+eval { require Test::Pod::Coverage };
+plan(skip_all => "Test::Pod::Coverage not installed (optional)") if ($@);
+all_pod_files_ok();
+
+#==[ EOF: pod-coverage.t ]==

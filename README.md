@@ -6,7 +6,7 @@
 # AliasCat.Server
 
 Web Services machinery for AliasCat  
-**Current Status:** Version 0.00.00 (Initial Docs Only)
+**Current Status:** Version 0.00.01 (Distro Skeleton)
 
 ## Introduction ##
 
@@ -15,10 +15,31 @@ supports Sendmail format alaises.  This project contains the code used
 to implement the web services component of AliasCat using a RESTful
 API.
 
+## Installation ##
+
+To install this module, run the following commands:
+
+```Shell
+Perl Build.PL
+./Build
+./Build test
+./Build install
+```
+
+## Dependencies ##
+
+TBD.
+
+## Bugs and Limitations ##
+
+This version localized for use on University of New Hampshire Mail
+Gateways only. To be ready for prime time we need to be MTA agnostic
+and support initial data aquistion using configuration files.
+
 ## License and Copyright ##
 
 AliasCat Email Alias Management System  
-Copyright (C) 2015  University System of New Hampshire
+Copyright (C) 2015, University System of New Hampshire
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

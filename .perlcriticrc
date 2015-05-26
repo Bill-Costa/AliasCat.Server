@@ -1,0 +1,13 @@
+#     File: https://github.com/Bill-Costa/AliasCat.Server/.perlcriticrc
+# Abstract: Control the things Perl::Critic carps about.
+#   Author: Bill.Costa@unh.edu
+#      See: Perl::Critic::Policy::Documentation::PodSpelling
+
+severity = 1
+verbose  = 11
+
+[Documentation::PodSpelling]
+  stop_words = AliasCat Costa
+
+
+#==[ EOF: .perlcriticrc ]==

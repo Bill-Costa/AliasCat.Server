@@ -12,11 +12,11 @@ use version; our $VERSION = qv('0.0.0');
 #  use Perl6::Slurp;
 #  use Perl6::Say;
 
-
 # Module implementation here
 
+# Magic true value required at end of module
+1;
 
-1; # Magic true value required at end of module
 __END__
 
 =head1 NAME
@@ -46,6 +46,11 @@ This document describes AliasCat::REST version 0.0.1
     Use subsections (=head2, =head3) as appropriate.
 
 
+=head1 SUBROUTINES/METHODS
+
+=for author to fill in:
+    Describe the API here.
+
 =head1 INTERFACE 
 
 =for author to fill in:
@@ -72,8 +77,6 @@ This document describes AliasCat::REST version 0.0.1
 =item C<< Another error message here >>
 
 [Description of error here]
-
-[Et cetera, et cetera]
 
 =back
 
@@ -136,13 +139,13 @@ L<http://rt.cpan.org>.
 Bill Costa  C<< <Bill.Costa@unh.edu> >>
 
 
-=head1 LICENCE AND COPYRIGHT
+=head1 LICENSE AND COPYRIGHT
 
 Copyright (c) 2015, Bill Costa C<< <Bill.Costa@unh.edu> >>. All rights reserved.
 
-This module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself. See L<perlartistic>.
-
+This module is free software; you can redistribute it and/or modify it
+under the same terms of the 
+L<GNU General Public License|http://fsf.org/>.
 
 =head1 DISCLAIMER OF WARRANTY
 
@@ -158,7 +161,7 @@ NECESSARY SERVICING, REPAIR, OR CORRECTION.
 
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
 WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
-REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENCE, BE
+REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENSE, BE
 LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL,
 OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE
 THE SOFTWARE (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING

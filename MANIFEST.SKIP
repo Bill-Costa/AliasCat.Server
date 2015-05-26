@@ -1,6 +1,9 @@
-
 #!start included /opt/local/lib/perl5/5.16.3/ExtUtils/MANIFEST.SKIP
-# Avoid version control files.
+
+#-------------------------------+
+# Avoid version control files.	|
+#-------------------------------+
+
 \bRCS\b
 \bCVS\b
 \bSCCS\b
@@ -11,12 +14,20 @@
 \b_darcs\b
 \B\.cvsignore$
 
-# Avoid VMS specific MakeMaker generated files
+#-------------------------------+
+# Avoid VMS specific MakeMaker	|
+# generated files.		|
+#-------------------------------+
+
 \bDescrip.MMS$
 \bDESCRIP.MMS$
 \bdescrip.mms$
 
-# Avoid Makemaker generated and utility files.
+#-------------------------------+
+# Avoid Makemaker generated and	|
+# utility files.		|
+#-------------------------------+
+
 \bMANIFEST\.bak
 \bMakefile$
 \bblib/
@@ -25,7 +36,11 @@
 \bpm_to_blib$
 \bblibdirs\.ts$         # 6.18 through 6.25 generated this
 
-# Avoid Module::Build generated and utility files.
+#-------------------------------+
+# Avoid Module::Build generated	|
+#  and utility files.		|
+#-------------------------------+
+
 \bBuild$
 \b_build/
 \bBuild.bat$
@@ -33,7 +48,10 @@
 \bBUILD.COM$
 \bbuild.com$
 
-# Avoid temp and backup files.
+#-------------------------------+
+# Avoid temp and backup files.	|
+#-------------------------------+
+
 ~$
 \.old$
 \#$
@@ -43,24 +61,35 @@
 \.#
 \.rej$
 
-# Avoid OS-specific files/dirs
-# Mac OSX metadata
+#-------------------------------+
+# Avoid OS-specific files/dirs	|
+# Mac OSX metadata and SMB	|
+# mount metadata files.		|
+#-------------------------------+
+
 \B\.DS_Store
-# Mac OSX SMB mount metadata files
+
 \B\._
 
-# Avoid Devel::Cover and Devel::CoverX::Covered files.
+#-------------------------------+
+# Avoid Devel::Cover and	|
+# Devel::CoverX::Covered files. |
+#-------------------------------+
+
 \bcover_db\b
 \bcovered\b
 
-# Avoid MYMETA files
-^MYMETA\.
-#!end included /opt/local/lib/perl5/5.16.3/ExtUtils/MANIFEST.SKIP
+#-------------------------------+
+# Avoid MYMETA files		|
+#-------------------------------+
 
-# Avoid configuration metadata file
 ^MYMETA\.
 
-# Avoid Module::Build generated and utility files.
+#-------------------------------+
+# Avoid Module::Build generated	|
+# and utility files.		|
+#-------------------------------+
+
 \bBuild$
 \bBuild.bat$
 \b_build
@@ -69,10 +98,18 @@
 \bbuild.com$
 ^MANIFEST\.SKIP
 
-# Avoid archives of this distribution
+#-------------------------------+
+# Avoid archives of this	|
+# distribution			|
+#-------------------------------+
+
 \bAliasCat-[\d\.\_]+
 
-# Avoid AliasCat developer resources junk
+#-------------------------------+
+# Avoid AliasCat developer	|
+# resources junk		|
+#-------------------------------+
+
 ^Dev-Resources
 
 #==[ EOF: MANIFEST.SKIP ]==

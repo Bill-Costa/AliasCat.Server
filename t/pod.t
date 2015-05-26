@@ -10,6 +10,6 @@ use Test::More;
 
 eval { require Test::Pod };
 plan(skip_all => "Test::Pod not installed (optional)") if ($@);
-all_pod_files_ok();
+Test::Pod::all_pod_files_ok();
 
 #==[ EOF: pod.t ]==

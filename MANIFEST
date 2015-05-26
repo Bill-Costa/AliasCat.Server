@@ -2,19 +2,36 @@
 #       Distro:	AliasCat
 #     Abstract:	All files in a complete distro need to be listed below.
 
-Build.PL
-Changes
+#-----------------------+
+# The Deliverables	|
+#-----------------------+
+
 lib/AliasCat.pm
 lib/AliasCat/Base.pm
 lib/AliasCat/REST.pm
 lib/AliasCat/Sendmail/UNHenv.pm
-MANIFEST			This list of files
-LICENSE
-README.md
+
+#-----------------------+
+# Distro Tests		|
+#-----------------------+
+
+.perlcriticrc
 t/00.load.t
 t/perlcritic.t
 t/pod-coverage.t
 t/pod.t
 xt/boilerplate.t
 
+#-----------------------+
+# Distro Overhead	|
+#-----------------------+
+
+Build.PL
+Changes
+MANIFEST			This list of files
+LICENSE
+README.md
+
 #==[ EOF: MANIFEST ]==
+META.yml
+META.json

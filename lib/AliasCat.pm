@@ -3,6 +3,7 @@ package AliasCat;
 use warnings;
 use strict;
 use Carp;
+use parent qw(AliasCat::Base);
 
 use version; our $VERSION = qv('0.0.0');
 
@@ -12,11 +13,14 @@ use version; our $VERSION = qv('0.0.0');
 #  use Perl6::Slurp;
 #  use Perl6::Say;
 
-
 # Module implementation here
 
+# Magic true value required at end of module
 
-1; # Magic true value required at end of module
+AliasCat::Base::foo();
+
+1;
+
 __END__
 
 =head1 NAME
@@ -37,14 +41,18 @@ This document describes AliasCat version 0.0.1
     Brief code example(s) here showing commonest usage(s).
     This section will be as far as many users bother reading
     so make it as educational and exeplary as possible.
-  
-  
+
+
 =head1 DESCRIPTION
 
 =for author to fill in:
     Write a full description of the module and its features here.
     Use subsections (=head2, =head3) as appropriate.
 
+=head1 SUBROUTINES/METHODS
+
+=for author to fill in:
+    Describe the API here.
 
 =head1 INTERFACE 
 
@@ -73,7 +81,7 @@ This document describes AliasCat version 0.0.1
 
 [Description of error here]
 
-[Et cetera, et cetera]
+[Yet more here]
 
 =back
 
@@ -135,14 +143,14 @@ L<http://rt.cpan.org>.
 
 Bill Costa  C<< <Bill.Costa@unh.edu> >>
 
+=head1 LICENSE AND COPYRIGHT
 
-=head1 LICENCE AND COPYRIGHT
+Copyright (c) 2015, Bill Costa C<< <Bill.Costa@unh.edu> >>. All rights
+reserved.
 
-Copyright (c) 2015, Bill Costa C<< <Bill.Costa@unh.edu> >>. All rights reserved.
-
-This module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself. See L<perlartistic>.
-
+This module is free software; you can redistribute it and/or modify it
+under the same terms of the 
+L<GNU General Public License|http://fsf.org/>.
 
 =head1 DISCLAIMER OF WARRANTY
 
@@ -158,7 +166,7 @@ NECESSARY SERVICING, REPAIR, OR CORRECTION.
 
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
 WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
-REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENCE, BE
+REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENSE, BE
 LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL,
 OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE
 THE SOFTWARE (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING

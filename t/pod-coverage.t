@@ -9,7 +9,9 @@ use strict;
 use Test::More;
 
 eval { require Test::Pod::Coverage };
+
 plan(skip_all => "Test::Pod::Coverage not installed (optional)") if ($@);
-all_pod_files_ok();
+
+Test::Pod::Coverage::all_pod_coverage_ok();
 
 #==[ EOF: pod-coverage.t ]==

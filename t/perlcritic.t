@@ -9,6 +9,7 @@ use Test::More;
 
 eval { require Test::Perl::Critic };
 plan(skip_all => "Test::Perl::Critic not installed (optional)") if ($@);
-all_pod_files_ok();
+
+Test::Perl::Critic::all_critic_ok();
 
 #==[ EOF: perlcritic.t ]==

@@ -1,9 +1,0 @@
-$ module-starter \
-  --module=AliasCat,AliasCat::REST,AliasCat::Base,AliasCat::Sendmail::UNHenv \
-  --author=Bill Costa \
-  --email=Bill.Costa@unh.edu \
-  --ignore=git \
-  --license=gpl \
-  --builder=Module::Build \
-  --minperl=5.10.1 \
-  --fatalize

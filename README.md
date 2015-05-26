@@ -6,7 +6,7 @@
 # AliasCat.Server
 
 Web Services machinery for AliasCat  
-**Current Status:** Version 0.00.01 (Distro Skeleton)
+**Current Status:** v0.00 (Distro Skeleton)
 
 ## Introduction ##
 

@@ -5,7 +5,7 @@ use strict;
 use Carp;
 use parent qw(AliasCat::Base);
 
-use version; our $VERSION = qv('0.0.0');
+use version; our $VERSION = qv('0.00.01');
 
 # Other recommended modules (uncomment to use):
 #  use IO::Prompt;

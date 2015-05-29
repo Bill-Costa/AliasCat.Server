@@ -17,8 +17,6 @@ use version; our $VERSION = qv('0.00.01');
 
 # Magic true value required at end of module
 
-AliasCat::Base::foo();
-
 1;
 
 __END__

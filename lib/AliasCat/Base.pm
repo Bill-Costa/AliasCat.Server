@@ -18,8 +18,7 @@ use version; our $VERSION = qv('0.0.0');
 
 sub foo
   {
-    #print 'Hello World!';
-    carp("! print failed\n_ $CHILD_ERROR") if ($CHILD_ERROR);
+    print "Hello World!\n";
     return (1);
   }
 

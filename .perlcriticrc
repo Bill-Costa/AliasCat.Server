@@ -6,8 +6,17 @@
 severity = 1
 verbose  = 11
 
+# These words are not misspelled.
+
 [Documentation::PodSpelling]
   stop_words = AliasCat Costa
+
+# Testing for a return status doing a print() or printf() to STDOUT or
+# STDERR is just plain silly.
+
+[InputOutput::RequireCheckedSyscalls]
+  functions = :builtins
+  exclude_functions = print
 
 
 #==[ EOF: .perlcriticrc ]==

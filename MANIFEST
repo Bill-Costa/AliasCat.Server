@@ -28,10 +28,10 @@ xt/boilerplate.t
 
 Build.PL
 Changes
-MANIFEST			This list of files
 LICENSE
+MANIFEST			This list of files
+META.json
+META.yml
 README.md
 
 #==[ EOF: MANIFEST ]==
-META.yml
-META.json

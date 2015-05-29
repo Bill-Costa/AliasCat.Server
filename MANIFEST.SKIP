@@ -110,6 +110,8 @@
 # resources junk		|
 #-------------------------------+
 
-^Dev-Resources
+^dev-resrcs
+*.local-only.*
+
 
 #==[ EOF: MANIFEST.SKIP ]==

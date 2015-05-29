@@ -10,6 +10,8 @@ lib/AliasCat.pm
 lib/AliasCat/Base.pm
 lib/AliasCat/REST.pm
 lib/AliasCat/Sendmail/UNHenv.pm
+bin/1st-read-me.md
+eg/1st-read-me.md
 
 #-----------------------+
 # Distro Tests		|

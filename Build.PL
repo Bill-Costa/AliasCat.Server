@@ -21,6 +21,7 @@ my $builder = Module::Build->new
            module_name => 'AliasCat',
                license => 'gpl',
            dist_author => 'Bill Costa <Bill.Costa@unh.edu>',
+         dist_abstract => 'A system for managing email aliases.',
      dist_version_from => 'lib/AliasCat.pm',
         add_to_cleanup => [ 'AliasCat-*' ],
               requires => {

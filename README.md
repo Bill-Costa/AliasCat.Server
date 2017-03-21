@@ -5,15 +5,12 @@
 
 # AliasCat.Server
 
-Web Services machinery for AliasCat  
+The abandoned project formerly known as AliasCat  
 **Current Status:** v0.00 (Distro Skeleton)
 
 ## Introduction ##
 
-AliasCat is a system for managing email aliases.  The current version
-supports Sendmail format alaises.  This project contains the code used
-to implement the web services component of AliasCat using a RESTful
-API.
+This project has been abandoned.  The respository remains so we can rename and repuprose it..
 
 ## Installation ##
 
@@ -32,13 +29,11 @@ TBD.
 
 ## Bugs and Limitations ##
 
-This version localized for use on University of New Hampshire Mail
-Gateways only. To be ready for prime time we need to be MTA agnostic
-and support initial data aquistion using configuration files.
+Not enough here to have any bugs.  But who knows.
 
 ## License and Copyright ##
 
-AliasCat Email Alias Management System  
+The Project Formerly Known as AliasCat.
 Copyright (C) 2015, University System of New Hampshire
 
 This program is free software; you can redistribute it and/or modify
